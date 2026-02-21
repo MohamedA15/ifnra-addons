@@ -1,0 +1,33 @@
+# ----------------------------
+# Terraform
+# ----------------------------
+
+# State
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform directory
+.terraform/
+
+# Plan files
+*.tfplan
+
+# Variable files (secrets)
+terraform.tfvars
+*.tfvars
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# ----------------------------
+# Sensitive keys
+# ----------------------------
+*.pem
+*.key
+
+# ----------------------------
+# macOS
+# ----------------------------
+.DS_Store
